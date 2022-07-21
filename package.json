@@ -1,0 +1,24 @@
+{
+  "name": "development_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "anon",
+  "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": { 
+    "@waxio/waxjs": "^1.0.4",
+    "atomicassets": "^1.4.2",
+    "atomicmarket": "^1.1.6",
+    "axios": "^0.27.2", 
+    "eosjs": "^21.0.4", 
+    "node-fetch": "^2.6.1",  
+    "request": "^2.88.2" 
+  }
+}
